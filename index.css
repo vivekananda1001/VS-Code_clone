@@ -1,0 +1,165 @@
+body{
+    background-color:rgb(10, 8, 19);
+    color:rgb(245, 238, 238);
+    font-family: 'Noto Sans',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.company_name{
+    font-size:20px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding-left: 25px;
+    display:flex;
+    color:rgb(154, 176, 191);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-right .form-control{
+    width:auto;
+    background-color:rgb(0,0,0);
+    border-radius: 8px;
+    height:35px;
+    border-width: 0.5px;
+    border-color:rgb(154, 176, 191);
+}
+
+.navbar-right .btn{
+    width:auto;
+    height:35px;
+    background-color: rgb(48, 131, 226);
+}
+
+.navbar-right .btn:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(0,0,0);
+}
+
+.navbar-right{
+    padding-right:80px;
+}
+
+.navbar-left{
+    padding-right:50px;
+}
+
+.logo{
+    padding-left:40px;
+    height:30px;
+    width:auto;
+    margin-right: 10px;
+}
+
+.centred{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50px; 
+    color:rgb(154, 176, 191);
+}
+
+.centred a{
+    margin-right: 5px;
+    text-decoration: underline;
+    color:rgb(69, 174, 235);
+}
+
+.navbar-right .logo{
+    height:22px;
+    width:auto;
+    padding-right: 10px;
+}
+
+.custom_box{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    width: 90%;
+    border-width: 1px;
+    border-color:rgba(154, 176, 191, 0.651);
+    background-color: rgba(48, 50, 52, 0.55);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(154, 176, 191);
+    font-size: 15px;
+}
+
+.left-txt{
+    display: flex;
+    padding-top: 40px;
+    /* justify-content:center; */
+    align-items: center;
+    text-align: left;
+}
+
+.col-md-7 img{
+    width:100%;
+    height:auto;
+    max-width: 100%;
+}
+
+.left-txt h1{
+    font-size:60px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.left-txt .btn{
+    width:60%;
+    height:50px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(48, 131, 226);
+    font-size:18px;
+    transition: background-color 0.3s ease;
+}
+
+.left-txt .btn:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(0,0,0);
+}
+
+.left-txt a{
+    text-decoration: none;
+    position:relative;
+    color: rgb(60, 153, 234);
+}
+
+.left-txt a::after{
+    content: ''; 
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+}
+
+.left-txt a:hover::after {
+    background-color: rgb(182, 220, 255);
+}
+
+.left-txt .privacy_statement{
+    padding-top: 10px;
+    color: rgba(190, 206, 213, 0.664);
+    justify-content: center;
+    font-size: 12px;
+}
+
+.left-txt .column-md-4{
+    margin-right: 50px;
+}
